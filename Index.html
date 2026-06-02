@@ -1,1 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
 
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            line-height:1.6;
+        }
+
+        header{
+            background:#2e7d32;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background:#1b5e20;
+            padding:10px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-weight:bold;
+        }
+
+        .banner{
+            background:url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854') center/cover;
+            color:white;
+            text-align:center;
+            padding:120px 20px;
+        }
+
+        .banner h1{
+            font-size:3rem;
+        }
+
+        section{
+            padding:40px;
+        }
+
+        h2{
+            color:#2e7d32;
+            margin-bottom:15px;
+        }
+
+        .cards{
+            display:flex;
+            gap:20px;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            flex:1;
+            min-width:250px;
+            background:#f4f4f4;
+            padding:20px;
+            border-radius:10px;
+        }
+
+        form{
+            display:flex;
+            flex-direction:column;
+            max-width:500px;
+        }
+
+        input, textarea{
+            padding:10px;
+            margin:10px 0;
+        }
+
+        button{
+            background:#2e7d32;
+            color:white;
+            border:none;
+            padding:12px;
+            cursor:pointer;
+        }
+
+        footer{
+            background:#1b5e20;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        @media(max-width:768px){
+            .banner h1{
+                font-size:2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Agro Forte, Futuro Sustentável</h1>
+    <p>Equilíbrio entre produção e meio ambiente</p>
+</header>
+
+<nav>
+    <a href="#inicio">Início</a>
+    <a href="#producao">Produção</a>
+    <a href="#sustentabilidade">Sustentabilidade</a>
+    <a href="#desafios">Desafios</a>
+    <a href="#futuro">Futuro</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section class="banner" id="inicio">
+    <h1>Produzir Hoje, Preservar Para Amanhã</h1>
+    <p>Tecnologia e sustentabilidade caminhando juntas.</p>
+</section>
+
+<section id="producao">
+    <h2>Produção Agrícola</h2>
+    <p>
+        O agronegócio é um dos principais motores da economia brasileira,
+        gerando empregos, renda e alimentos para milhões de pessoas.
+    </p>
+</section>
+
+<section id="sustentabilidade">
+    <h2>Sustentabilidade no Campo</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Agricultura de Precisão</h3>
+            <p>Uso de sensores e GPS para aumentar a eficiência produtiva.</p>
+        </div>
+
+        <div class="card">
+            <h3>Irrigação Inteligente</h3>
+            <p>Redução do desperdício de água através de monitoramento.</p>
+        </div>
+
+        <div class="card">
+            <h3>Energia Renovável</h3>
+            <p>Uso de energia solar e outras fontes limpas na produção.</p>
+        </div>
+    </div>
+</section>
+
+<section id="desafios">
+    <h2>Desafios Ambientais</h2>
+
+    <ul>
+        <li>Desmatamento</li>
+        <li>Uso excessivo da água</li>
+        <li>Emissão de carbono</li>
+        <li>Degradação do solo</li>
+    </ul>
+</section>
+
+<section id="futuro">
+    <h2>Soluções e Futuro</h2>
+
+    <p>
+        A agricultura regenerativa, os drones agrícolas, a inteligência
+        artificial e as energias renováveis representam o futuro de um
+        agronegócio mais sustentável e eficiente.
+    </p>
+</section>
+
+<section id="contato">
+    <h2>Contato e Conscientização</h2>
+
+    <form>
+        <input type="text" placeholder="Seu nome" required>
+
+        <input type="email" placeholder="Seu e-mail" required>
+
+        <textarea rows="5" placeholder="Sua mensagem"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>AGRINHO 2026 | Agro Forte, Futuro Sustentável</p>
+</footer>
+
+</body>
+</html>
